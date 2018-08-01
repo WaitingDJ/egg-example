@@ -1,0 +1,400 @@
+2018-07-20 18:00:03,518 ERROR 13548 [-/127.0.0.1/-/43ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\VS Code\Egg\egg-example\node_modules\egg\lib\application.js:318:15)
+    at Object.get cookies [as cookies] (C:\VS Code\Egg\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\VS Code\Egg\egg-example\node_modules\egg-security\app\extend\context.js:78:33)
+    at Object.ensureCsrfSecret (C:\VS Code\Egg\egg-example\node_modules\egg-security\app\extend\context.js:89:13)
+    at csrf (C:\VS Code\Egg\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (C:\VS Code\Egg\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 13548
+hostname: WIN10-701130010
+
+2018-07-20 18:07:52,458 ERROR 8244 [-/127.0.0.1/-/18ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\VS Code\Egg\egg-example\node_modules\egg\lib\application.js:318:15)
+    at Object.get cookies [as cookies] (C:\VS Code\Egg\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\VS Code\Egg\egg-example\node_modules\egg-security\app\extend\context.js:78:33)
+    at Object.ensureCsrfSecret (C:\VS Code\Egg\egg-example\node_modules\egg-security\app\extend\context.js:89:13)
+    at csrf (C:\VS Code\Egg\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (C:\VS Code\Egg\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 8244
+hostname: WIN10-701130010
+
+2018-07-20 18:10:59,953 ERROR 3936 [-/127.0.0.1/-/6ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\VS Code\Egg\egg-example\node_modules\egg\lib\application.js:318:15)
+    at Object.get cookies [as cookies] (C:\VS Code\Egg\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\VS Code\Egg\egg-example\node_modules\egg-security\app\extend\context.js:78:33)
+    at Object.ensureCsrfSecret (C:\VS Code\Egg\egg-example\node_modules\egg-security\app\extend\context.js:89:13)
+    at csrf (C:\VS Code\Egg\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (C:\VS Code\Egg\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 3936
+hostname: WIN10-701130010
+
+2018-07-20 18:12:59,330 ERROR 16140 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\VS Code\Egg\egg-example\node_modules\egg\lib\application.js:318:15)
+    at Object.get cookies [as cookies] (C:\VS Code\Egg\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\VS Code\Egg\egg-example\node_modules\egg-security\app\extend\context.js:78:33)
+    at Object.ensureCsrfSecret (C:\VS Code\Egg\egg-example\node_modules\egg-security\app\extend\context.js:89:13)
+    at csrf (C:\VS Code\Egg\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (C:\VS Code\Egg\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 16140
+hostname: WIN10-701130010
+
+2018-07-21 10:20:36,552 ERROR 17004 [-/127.0.0.1/-/6ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: argument name is invalid
+    at new Cookie (C:\VS Code\Egg\egg-example\node_modules\egg-cookies\lib\cookie.js:24:5)
+    at Cookies.set (C:\VS Code\Egg\egg-example\node_modules\egg-cookies\lib\cookies.js:110:20)
+    at AdminController.index (C:\VS Code\Egg\egg-example\app\controller\user\admin.js:7:26)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 17004
+hostname: WIN10-701130010
+
+2018-07-21 10:25:19,602 ERROR 9612 [-/127.0.0.1/-/5ms GET /admin] nodejs.AssertionError [ERR_ASSERTION]: argument value is invalid
+    at new Cookie (C:\VS Code\Egg\egg-example\node_modules\egg-cookies\lib\cookie.js:25:5)
+    at Cookies.set (C:\VS Code\Egg\egg-example\node_modules\egg-cookies\lib\cookies.js:110:20)
+    at AdminController.index (C:\VS Code\Egg\egg-example\app\controller\user\admin.js:7:26)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 9612
+hostname: WIN10-701130010
+
+2018-07-21 15:30:21,855 ERROR 5596 [-/127.0.0.1/-/6ms POST /admin/post] nodejs.TypeError: Cannot read property 'body' of undefined
+    at AdminController.postData (C:\VS Code\Egg\egg-example\app\controller\user\admin.js:14:42)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 5596
+hostname: WIN10-701130010
+
+2018-07-21 15:30:55,225 ERROR 5596 [-/127.0.0.1/-/3ms POST /admin/post] nodejs.TypeError: Cannot read property 'body' of undefined
+    at AdminController.postData (C:\VS Code\Egg\egg-example\app\controller\user\admin.js:14:42)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 5596
+hostname: WIN10-701130010
+
+2018-07-21 15:31:47,756 ERROR 5596 [-/127.0.0.1/-/3ms POST /admin/post] nodejs.TypeError: Cannot read property 'body' of undefined
+    at AdminController.postData (C:\VS Code\Egg\egg-example\app\controller\user\admin.js:14:42)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 5596
+hostname: WIN10-701130010
+
+2018-07-21 19:48:59,141 ERROR 15216 [-/127.0.0.1/-/9ms GET /] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:7:53)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 15216
+hostname: WIN10-701130010
+
+2018-07-21 19:50:40,718 ERROR 14876 [-/127.0.0.1/-/8ms GET /] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:7:53)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 14876
+hostname: WIN10-701130010
+
+2018-07-21 20:01:28,294 ERROR 16112 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:7:53)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 16112
+hostname: WIN10-701130010
+
+2018-07-21 20:02:12,686 ERROR 3752 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property 'user' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:6:48)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 3752
+hostname: WIN10-701130010
+
+2018-07-21 20:03:03,179 ERROR 3752 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'user' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:6:48)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 3752
+hostname: WIN10-701130010
+
+2018-07-21 20:04:23,845 ERROR 10620 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:6:53)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 10620
+hostname: WIN10-701130010
+
+2018-07-21 20:07:38,822 ERROR 16880 [-/127.0.0.1/-/4ms GET /] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:5:53)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 16880
+hostname: WIN10-701130010
+
+2018-07-21 20:17:35,169 ERROR 16236 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:5:53)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 16236
+hostname: WIN10-701130010
+
+2018-07-21 20:17:55,945 ERROR 16236 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:5:53)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 16236
+hostname: WIN10-701130010
+
+2018-07-21 20:27:13,021 ERROR 15764 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:5:53)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 15764
+hostname: WIN10-701130010
+
+2018-07-21 20:27:14,808 ERROR 15764 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:5:53)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 15764
+hostname: WIN10-701130010
+
+2018-07-21 20:27:35,351 ERROR 15764 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:5:53)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 15764
+hostname: WIN10-701130010
+
+2018-07-21 20:52:29,099 ERROR 16736 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:5:53)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 16736
+hostname: WIN10-701130010
+
+2018-07-21 20:54:47,492 ERROR 16616 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:5:53)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 16616
+hostname: WIN10-701130010
+
+2018-07-21 20:54:50,491 ERROR 16616 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:5:53)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 16616
+hostname: WIN10-701130010
+
+2018-07-21 20:57:09,257 ERROR 12996 [-/127.0.0.1/-/10ms GET /] nodejs.TypeError: Cannot read property 'admin' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:5:53)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 12996
+hostname: WIN10-701130010
+
+2018-07-21 21:00:00,069 ERROR 14880 [-/127.0.0.1/-/12ms GET /] nodejs.TypeError: Cannot read property 'bu' of undefined
+    at HomeController.index (C:\VS Code\Egg\egg-example\app\controller\home.js:7:51)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\VS Code\Egg\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 14880
+hostname: WIN10-701130010
+

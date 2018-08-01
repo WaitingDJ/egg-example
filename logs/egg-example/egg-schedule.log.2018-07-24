@@ -1,0 +1,44 @@
+2018-07-20 17:59:40,199 INFO 15696 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-21 00:00:00.000
+2018-07-20 17:59:40,200 INFO 15696 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-21 00:00:01.000
+2018-07-20 18:05:32,381 INFO 12492 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-21 00:00:00.000
+2018-07-20 18:05:32,381 INFO 12492 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-21 00:00:01.000
+2018-07-20 18:07:43,133 INFO 13828 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-21 00:00:00.000
+2018-07-20 18:07:43,134 INFO 13828 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-21 00:00:01.000
+2018-07-20 18:10:28,045 INFO 1068 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-21 00:00:00.000
+2018-07-20 18:10:28,046 INFO 1068 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-21 00:00:01.000
+2018-07-20 18:12:38,035 INFO 1116 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-21 00:00:00.000
+2018-07-20 18:12:38,036 INFO 1116 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-21 00:00:01.000
+2018-07-20 18:15:58,038 INFO 2744 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-21 00:00:00.000
+2018-07-20 18:15:58,039 INFO 2744 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-21 00:00:01.000
+2018-07-21 09:11:27,777 INFO 11664 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-22 00:00:00.000
+2018-07-21 09:11:27,778 INFO 11664 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-22 00:00:01.000
+2018-07-21 10:19:18,535 INFO 13604 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-22 00:00:00.000
+2018-07-21 10:19:18,536 INFO 13604 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-22 00:00:01.000
+2018-07-21 10:29:27,279 INFO 12000 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-22 00:00:00.000
+2018-07-21 10:29:27,280 INFO 12000 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-22 00:00:01.000
+2018-07-21 10:30:04,934 INFO 15916 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-22 00:00:00.000
+2018-07-21 10:30:04,934 INFO 15916 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-22 00:00:01.000
+2018-07-21 17:22:15,919 INFO 15184 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-22 00:00:00.000
+2018-07-21 17:22:15,920 INFO 15184 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-22 00:00:01.000
+2018-07-21 20:01:12,330 INFO 2200 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-22 00:00:00.000
+2018-07-21 20:01:12,331 INFO 2200 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-22 00:00:01.000
+2018-07-21 20:57:02,914 INFO 16164 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-22 00:00:00.000
+2018-07-21 20:57:02,915 INFO 16164 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-22 00:00:01.000
+2018-07-21 21:08:36,825 INFO 15160 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-22 00:00:00.000
+2018-07-21 21:08:36,826 INFO 15160 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-22 00:00:01.000
+2018-07-21 23:03:47,613 INFO 11488 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-22 00:00:00.000
+2018-07-21 23:03:47,614 INFO 11488 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-22 00:00:01.000
+2018-07-22 12:00:25,012 INFO 11528 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-23 00:00:00.000
+2018-07-22 12:00:25,013 INFO 11528 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-23 00:00:01.000
+2018-07-24 22:43:36,155 INFO 15140 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-25 00:00:00.000
+2018-07-24 22:43:36,156 INFO 15140 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-25 00:00:01.000
+2018-07-25 00:00:00,005 INFO 32 [1532448000004216391229858268] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js task received by app
+2018-07-25 00:00:00,006 INFO 32 [1532448000004216391229858268] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2018-07-25 00:00:00,010 INFO 32 [1532448000004216391229858268] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 4ms
+2018-07-25 00:00:00,004 INFO 15140 [1532448000004216391229858268] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js triggered, send random by agent
+2018-07-25 00:00:00,009 INFO 15140 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-26 00:00:00.000
+2018-07-25 00:00:01,003 INFO 15140 [1532448001003216392228530891] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js triggered, send random by agent
+2018-07-25 00:00:01,005 INFO 15140 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-26 00:00:01.000
+2018-07-25 00:00:01,003 INFO 32 [1532448001003216392228530891] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js task received by app
+2018-07-25 00:00:01,003 INFO 32 [1532448001003216392228530891] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2018-07-25 00:00:01,020 INFO 32 [1532448001003216392228530891] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 17ms

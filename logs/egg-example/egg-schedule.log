@@ -1,0 +1,4 @@
+2018-07-26 00:16:42,503 INFO 14368 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-27 00:00:00.000
+2018-07-26 00:16:42,504 INFO 14368 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-27 00:00:01.000
+2018-07-27 10:58:56,238 INFO 10440 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-07-28 00:00:00.000
+2018-07-27 10:58:56,239 INFO 10440 [Timer] C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-07-28 00:00:01.000

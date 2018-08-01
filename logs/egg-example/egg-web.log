@@ -1,0 +1,433 @@
+2018-07-26 00:00:01,024 INFO 17596 [egg-logrotator] app logger reload: got log-reload message
+2018-07-26 00:01:10,854 INFO 17828 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:01:10,921 INFO 17828 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:01:10,921 INFO 17828 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:01:11,748 INFO 17828 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:01:11,750 INFO 17828 [egg-security] use methodnoallow middleware
+2018-07-26 00:01:11,751 INFO 17828 [egg-security] use noopen middleware
+2018-07-26 00:01:11,752 INFO 17828 [egg-security] use nosniff middleware
+2018-07-26 00:01:11,752 INFO 17828 [egg-security] use xssProtection middleware
+2018-07-26 00:01:11,752 INFO 17828 [egg-security] use xframe middleware
+2018-07-26 00:01:11,753 INFO 17828 [egg-security] use dta middleware
+2018-07-26 00:01:11,753 INFO 17828 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:01:11,773 INFO 17828 [egg:core] dump config after load, 10ms
+2018-07-26 00:01:11,776 INFO 17828 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:01:11,805 INFO 17828 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:01:11,807 INFO 17828 [egg-watcher:app] watcher start success
+2018-07-26 00:01:11,818 INFO 17828 [egg:core] dump config after ready, 9ms
+2018-07-26 00:06:15,880 INFO 16300 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:06:15,925 INFO 16300 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:06:15,925 INFO 16300 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:06:16,934 INFO 16300 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:06:16,937 INFO 16300 [egg-security] use methodnoallow middleware
+2018-07-26 00:06:16,938 INFO 16300 [egg-security] use noopen middleware
+2018-07-26 00:06:16,940 INFO 16300 [egg-security] use nosniff middleware
+2018-07-26 00:06:16,941 INFO 16300 [egg-security] use xssProtection middleware
+2018-07-26 00:06:16,942 INFO 16300 [egg-security] use xframe middleware
+2018-07-26 00:06:16,943 INFO 16300 [egg-security] use dta middleware
+2018-07-26 00:06:16,943 INFO 16300 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:06:16,976 INFO 16300 [egg:core] dump config after load, 14ms
+2018-07-26 00:06:16,981 INFO 16300 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:06:17,035 INFO 16300 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:06:17,042 INFO 16300 [egg-watcher:app] watcher start success
+2018-07-26 00:06:17,057 INFO 16300 [egg:core] dump config after ready, 14ms
+2018-07-26 00:06:48,794 INFO 17552 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:06:48,843 INFO 17552 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:06:48,843 INFO 17552 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:06:49,558 INFO 17552 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:06:49,611 INFO 17552 [egg-security] use methodnoallow middleware
+2018-07-26 00:06:49,612 INFO 17552 [egg-security] use noopen middleware
+2018-07-26 00:06:49,640 INFO 17552 [egg-security] use nosniff middleware
+2018-07-26 00:06:49,640 INFO 17552 [egg-security] use xssProtection middleware
+2018-07-26 00:06:49,641 INFO 17552 [egg-security] use xframe middleware
+2018-07-26 00:06:49,642 INFO 17552 [egg-security] use dta middleware
+2018-07-26 00:06:49,642 INFO 17552 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:06:49,697 INFO 17552 [egg:core] dump config after load, 35ms
+2018-07-26 00:06:49,703 INFO 17552 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:06:49,817 INFO 17552 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:06:49,823 INFO 17552 [egg-watcher:app] watcher start success
+2018-07-26 00:06:49,875 INFO 17552 [egg:core] dump config after ready, 42ms
+2018-07-26 00:07:32,334 INFO 17932 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:07:32,425 INFO 17932 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:07:32,425 INFO 17932 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:07:33,951 INFO 17932 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:07:33,966 INFO 17932 [egg-security] use methodnoallow middleware
+2018-07-26 00:07:33,968 INFO 17932 [egg-security] use noopen middleware
+2018-07-26 00:07:33,969 INFO 17932 [egg-security] use nosniff middleware
+2018-07-26 00:07:33,970 INFO 17932 [egg-security] use xssProtection middleware
+2018-07-26 00:07:33,972 INFO 17932 [egg-security] use xframe middleware
+2018-07-26 00:07:33,974 INFO 17932 [egg-security] use dta middleware
+2018-07-26 00:07:33,974 INFO 17932 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:07:34,079 INFO 17932 [egg:core] dump config after load, 36ms
+2018-07-26 00:07:34,089 INFO 17932 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:07:34,179 INFO 17932 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:07:34,188 INFO 17932 [egg-watcher:app] watcher start success
+2018-07-26 00:07:34,218 INFO 17932 [egg:core] dump config after ready, 24ms
+2018-07-26 00:08:58,521 INFO 3528 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:08:58,568 INFO 3528 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:08:58,568 INFO 3528 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:08:59,261 INFO 3528 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:08:59,263 INFO 3528 [egg-security] use methodnoallow middleware
+2018-07-26 00:08:59,264 INFO 3528 [egg-security] use noopen middleware
+2018-07-26 00:08:59,264 INFO 3528 [egg-security] use nosniff middleware
+2018-07-26 00:08:59,265 INFO 3528 [egg-security] use xssProtection middleware
+2018-07-26 00:08:59,265 INFO 3528 [egg-security] use xframe middleware
+2018-07-26 00:08:59,266 INFO 3528 [egg-security] use dta middleware
+2018-07-26 00:08:59,266 INFO 3528 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:08:59,284 INFO 3528 [egg:core] dump config after load, 10ms
+2018-07-26 00:08:59,286 INFO 3528 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:08:59,316 INFO 3528 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:08:59,318 INFO 3528 [egg-watcher:app] watcher start success
+2018-07-26 00:08:59,329 INFO 3528 [egg:core] dump config after ready, 10ms
+2018-07-26 00:09:48,794 INFO 17816 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:09:48,851 INFO 17816 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:09:48,851 INFO 17816 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:09:49,535 INFO 17816 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:09:49,538 INFO 17816 [egg-security] use methodnoallow middleware
+2018-07-26 00:09:49,539 INFO 17816 [egg-security] use noopen middleware
+2018-07-26 00:09:49,540 INFO 17816 [egg-security] use nosniff middleware
+2018-07-26 00:09:49,541 INFO 17816 [egg-security] use xssProtection middleware
+2018-07-26 00:09:49,541 INFO 17816 [egg-security] use xframe middleware
+2018-07-26 00:09:49,541 INFO 17816 [egg-security] use dta middleware
+2018-07-26 00:09:49,542 INFO 17816 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:09:49,561 INFO 17816 [egg:core] dump config after load, 11ms
+2018-07-26 00:09:49,564 INFO 17816 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:09:49,592 INFO 17816 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:09:49,594 INFO 17816 [egg-watcher:app] watcher start success
+2018-07-26 00:09:49,607 INFO 17816 [egg:core] dump config after ready, 11ms
+2018-07-26 00:10:37,471 INFO 16440 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:10:37,515 INFO 16440 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:10:37,515 INFO 16440 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:10:38,171 INFO 16440 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:10:38,174 INFO 16440 [egg-security] use methodnoallow middleware
+2018-07-26 00:10:38,174 INFO 16440 [egg-security] use noopen middleware
+2018-07-26 00:10:38,175 INFO 16440 [egg-security] use nosniff middleware
+2018-07-26 00:10:38,175 INFO 16440 [egg-security] use xssProtection middleware
+2018-07-26 00:10:38,176 INFO 16440 [egg-security] use xframe middleware
+2018-07-26 00:10:38,176 INFO 16440 [egg-security] use dta middleware
+2018-07-26 00:10:38,176 INFO 16440 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:10:38,198 INFO 16440 [egg:core] dump config after load, 9ms
+2018-07-26 00:10:38,204 INFO 16440 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:10:38,232 INFO 16440 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:10:38,235 INFO 16440 [egg-watcher:app] watcher start success
+2018-07-26 00:10:38,263 INFO 16440 [egg:core] dump config after ready, 25ms
+2018-07-26 00:10:46,423 INFO 18244 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:10:46,467 INFO 18244 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:10:46,467 INFO 18244 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:10:47,132 INFO 18244 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:10:47,136 INFO 18244 [egg-security] use methodnoallow middleware
+2018-07-26 00:10:47,136 INFO 18244 [egg-security] use noopen middleware
+2018-07-26 00:10:47,137 INFO 18244 [egg-security] use nosniff middleware
+2018-07-26 00:10:47,137 INFO 18244 [egg-security] use xssProtection middleware
+2018-07-26 00:10:47,138 INFO 18244 [egg-security] use xframe middleware
+2018-07-26 00:10:47,138 INFO 18244 [egg-security] use dta middleware
+2018-07-26 00:10:47,138 INFO 18244 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:10:47,158 INFO 18244 [egg:core] dump config after load, 10ms
+2018-07-26 00:10:47,162 INFO 18244 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:10:47,186 INFO 18244 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:10:47,188 INFO 18244 [egg-watcher:app] watcher start success
+2018-07-26 00:10:47,198 INFO 18244 [egg:core] dump config after ready, 8ms
+2018-07-26 00:11:12,999 INFO 5976 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:11:13,047 INFO 5976 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:11:13,047 INFO 5976 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:11:13,898 INFO 5976 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:11:13,900 INFO 5976 [egg-security] use methodnoallow middleware
+2018-07-26 00:11:13,901 INFO 5976 [egg-security] use noopen middleware
+2018-07-26 00:11:13,903 INFO 5976 [egg-security] use nosniff middleware
+2018-07-26 00:11:13,904 INFO 5976 [egg-security] use xssProtection middleware
+2018-07-26 00:11:13,905 INFO 5976 [egg-security] use xframe middleware
+2018-07-26 00:11:13,905 INFO 5976 [egg-security] use dta middleware
+2018-07-26 00:11:13,906 INFO 5976 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:11:13,942 INFO 5976 [egg:core] dump config after load, 18ms
+2018-07-26 00:11:13,949 INFO 5976 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:11:13,986 INFO 5976 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:11:13,989 INFO 5976 [egg-watcher:app] watcher start success
+2018-07-26 00:11:14,002 INFO 5976 [egg:core] dump config after ready, 12ms
+2018-07-26 00:11:15,366 INFO 17380 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:11:15,413 INFO 17380 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:11:15,414 INFO 17380 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:11:16,086 INFO 17380 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:11:16,091 INFO 17380 [egg-security] use methodnoallow middleware
+2018-07-26 00:11:16,092 INFO 17380 [egg-security] use noopen middleware
+2018-07-26 00:11:16,093 INFO 17380 [egg-security] use nosniff middleware
+2018-07-26 00:11:16,093 INFO 17380 [egg-security] use xssProtection middleware
+2018-07-26 00:11:16,094 INFO 17380 [egg-security] use xframe middleware
+2018-07-26 00:11:16,094 INFO 17380 [egg-security] use dta middleware
+2018-07-26 00:11:16,094 INFO 17380 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:11:16,111 INFO 17380 [egg:core] dump config after load, 9ms
+2018-07-26 00:11:16,114 INFO 17380 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:11:16,143 INFO 17380 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:11:16,146 INFO 17380 [egg-watcher:app] watcher start success
+2018-07-26 00:11:16,158 INFO 17380 [egg:core] dump config after ready, 11ms
+2018-07-26 00:16:41,738 INFO 17060 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:16:41,779 INFO 17060 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:16:41,779 INFO 17060 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:16:42,429 INFO 17060 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:16:42,432 INFO 17060 [egg-security] use methodnoallow middleware
+2018-07-26 00:16:42,432 INFO 17060 [egg-security] use noopen middleware
+2018-07-26 00:16:42,433 INFO 17060 [egg-security] use nosniff middleware
+2018-07-26 00:16:42,433 INFO 17060 [egg-security] use xssProtection middleware
+2018-07-26 00:16:42,434 INFO 17060 [egg-security] use xframe middleware
+2018-07-26 00:16:42,434 INFO 17060 [egg-security] use dta middleware
+2018-07-26 00:16:42,434 INFO 17060 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:16:42,450 INFO 17060 [egg:core] dump config after load, 7ms
+2018-07-26 00:16:42,453 INFO 17060 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:16:42,481 INFO 17060 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:16:42,483 INFO 17060 [egg-watcher:app] watcher start success
+2018-07-26 00:16:42,493 INFO 17060 [egg:core] dump config after ready, 9ms
+2018-07-26 00:17:53,431 INFO 5952 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:17:53,472 INFO 5952 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:17:53,472 INFO 5952 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:17:54,364 INFO 5952 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:17:54,366 INFO 5952 [egg-security] use methodnoallow middleware
+2018-07-26 00:17:54,367 INFO 5952 [egg-security] use noopen middleware
+2018-07-26 00:17:54,368 INFO 5952 [egg-security] use nosniff middleware
+2018-07-26 00:17:54,368 INFO 5952 [egg-security] use xssProtection middleware
+2018-07-26 00:17:54,369 INFO 5952 [egg-security] use xframe middleware
+2018-07-26 00:17:54,369 INFO 5952 [egg-security] use dta middleware
+2018-07-26 00:17:54,369 INFO 5952 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:17:54,399 INFO 5952 [egg:core] dump config after load, 17ms
+2018-07-26 00:17:54,402 INFO 5952 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:17:54,431 INFO 5952 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:17:54,434 INFO 5952 [egg-watcher:app] watcher start success
+2018-07-26 00:17:54,456 INFO 5952 [egg:core] dump config after ready, 19ms
+2018-07-26 00:19:11,070 INFO 17816 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:19:11,116 INFO 17816 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:19:11,116 INFO 17816 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:19:11,831 INFO 17816 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:19:11,833 INFO 17816 [egg-security] use methodnoallow middleware
+2018-07-26 00:19:11,834 INFO 17816 [egg-security] use noopen middleware
+2018-07-26 00:19:11,834 INFO 17816 [egg-security] use nosniff middleware
+2018-07-26 00:19:11,835 INFO 17816 [egg-security] use xssProtection middleware
+2018-07-26 00:19:11,835 INFO 17816 [egg-security] use xframe middleware
+2018-07-26 00:19:11,836 INFO 17816 [egg-security] use dta middleware
+2018-07-26 00:19:11,836 INFO 17816 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:19:11,854 INFO 17816 [egg:core] dump config after load, 9ms
+2018-07-26 00:19:11,856 INFO 17816 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:19:11,886 INFO 17816 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:19:11,888 INFO 17816 [egg-watcher:app] watcher start success
+2018-07-26 00:19:11,899 INFO 17816 [egg:core] dump config after ready, 9ms
+2018-07-26 00:19:40,913 INFO 4216 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:19:40,961 INFO 4216 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:19:40,961 INFO 4216 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:19:41,598 INFO 4216 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:19:41,600 INFO 4216 [egg-security] use methodnoallow middleware
+2018-07-26 00:19:41,600 INFO 4216 [egg-security] use noopen middleware
+2018-07-26 00:19:41,601 INFO 4216 [egg-security] use nosniff middleware
+2018-07-26 00:19:41,602 INFO 4216 [egg-security] use xssProtection middleware
+2018-07-26 00:19:41,602 INFO 4216 [egg-security] use xframe middleware
+2018-07-26 00:19:41,603 INFO 4216 [egg-security] use dta middleware
+2018-07-26 00:19:41,603 INFO 4216 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:19:41,621 INFO 4216 [egg:core] dump config after load, 10ms
+2018-07-26 00:19:41,623 INFO 4216 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:19:41,647 INFO 4216 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:19:41,649 INFO 4216 [egg-watcher:app] watcher start success
+2018-07-26 00:19:41,661 INFO 4216 [egg:core] dump config after ready, 10ms
+2018-07-26 00:20:54,312 INFO 16604 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:20:54,367 INFO 16604 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:20:54,367 INFO 16604 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:20:55,082 INFO 16604 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:20:55,087 INFO 16604 [egg-security] use methodnoallow middleware
+2018-07-26 00:20:55,087 INFO 16604 [egg-security] use noopen middleware
+2018-07-26 00:20:55,088 INFO 16604 [egg-security] use nosniff middleware
+2018-07-26 00:20:55,088 INFO 16604 [egg-security] use xssProtection middleware
+2018-07-26 00:20:55,089 INFO 16604 [egg-security] use xframe middleware
+2018-07-26 00:20:55,089 INFO 16604 [egg-security] use dta middleware
+2018-07-26 00:20:55,089 INFO 16604 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:20:55,110 INFO 16604 [egg:core] dump config after load, 13ms
+2018-07-26 00:20:55,113 INFO 16604 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:20:55,140 INFO 16604 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:20:55,142 INFO 16604 [egg-watcher:app] watcher start success
+2018-07-26 00:20:55,154 INFO 16604 [egg:core] dump config after ready, 11ms
+2018-07-26 00:21:01,537 INFO 18380 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:21:01,585 INFO 18380 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:21:01,585 INFO 18380 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:21:02,284 INFO 18380 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:21:02,287 INFO 18380 [egg-security] use methodnoallow middleware
+2018-07-26 00:21:02,287 INFO 18380 [egg-security] use noopen middleware
+2018-07-26 00:21:02,288 INFO 18380 [egg-security] use nosniff middleware
+2018-07-26 00:21:02,288 INFO 18380 [egg-security] use xssProtection middleware
+2018-07-26 00:21:02,289 INFO 18380 [egg-security] use xframe middleware
+2018-07-26 00:21:02,289 INFO 18380 [egg-security] use dta middleware
+2018-07-26 00:21:02,289 INFO 18380 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:21:02,308 INFO 18380 [egg:core] dump config after load, 10ms
+2018-07-26 00:21:02,311 INFO 18380 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:21:02,337 INFO 18380 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:21:02,340 INFO 18380 [egg-watcher:app] watcher start success
+2018-07-26 00:21:02,350 INFO 18380 [egg:core] dump config after ready, 8ms
+2018-07-26 00:21:39,106 INFO 17924 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:21:39,148 INFO 17924 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:21:39,148 INFO 17924 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:21:39,762 INFO 17924 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:21:39,764 INFO 17924 [egg-security] use methodnoallow middleware
+2018-07-26 00:21:39,764 INFO 17924 [egg-security] use noopen middleware
+2018-07-26 00:21:39,765 INFO 17924 [egg-security] use nosniff middleware
+2018-07-26 00:21:39,765 INFO 17924 [egg-security] use xssProtection middleware
+2018-07-26 00:21:39,766 INFO 17924 [egg-security] use xframe middleware
+2018-07-26 00:21:39,766 INFO 17924 [egg-security] use dta middleware
+2018-07-26 00:21:39,766 INFO 17924 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:21:39,784 INFO 17924 [egg:core] dump config after load, 10ms
+2018-07-26 00:21:39,788 INFO 17924 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:21:39,814 INFO 17924 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:21:39,815 INFO 17924 [egg-watcher:app] watcher start success
+2018-07-26 00:21:39,826 INFO 17924 [egg:core] dump config after ready, 9ms
+2018-07-26 00:22:27,073 INFO 17880 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:22:27,119 INFO 17880 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:22:27,119 INFO 17880 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:22:27,871 INFO 17880 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:22:27,874 INFO 17880 [egg-security] use methodnoallow middleware
+2018-07-26 00:22:27,874 INFO 17880 [egg-security] use noopen middleware
+2018-07-26 00:22:27,875 INFO 17880 [egg-security] use nosniff middleware
+2018-07-26 00:22:27,877 INFO 17880 [egg-security] use xssProtection middleware
+2018-07-26 00:22:27,878 INFO 17880 [egg-security] use xframe middleware
+2018-07-26 00:22:27,878 INFO 17880 [egg-security] use dta middleware
+2018-07-26 00:22:27,878 INFO 17880 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:22:27,898 INFO 17880 [egg:core] dump config after load, 10ms
+2018-07-26 00:22:27,902 INFO 17880 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:22:27,935 INFO 17880 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:22:27,937 INFO 17880 [egg-watcher:app] watcher start success
+2018-07-26 00:22:27,950 INFO 17880 [egg:core] dump config after ready, 12ms
+2018-07-26 00:23:57,298 INFO 4216 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:23:57,342 INFO 4216 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:23:57,342 INFO 4216 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:23:57,974 INFO 4216 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:23:57,976 INFO 4216 [egg-security] use methodnoallow middleware
+2018-07-26 00:23:57,977 INFO 4216 [egg-security] use noopen middleware
+2018-07-26 00:23:57,977 INFO 4216 [egg-security] use nosniff middleware
+2018-07-26 00:23:57,978 INFO 4216 [egg-security] use xssProtection middleware
+2018-07-26 00:23:57,978 INFO 4216 [egg-security] use xframe middleware
+2018-07-26 00:23:57,979 INFO 4216 [egg-security] use dta middleware
+2018-07-26 00:23:57,979 INFO 4216 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:23:57,997 INFO 4216 [egg:core] dump config after load, 9ms
+2018-07-26 00:23:58,000 INFO 4216 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:23:58,023 INFO 4216 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:23:58,025 INFO 4216 [egg-watcher:app] watcher start success
+2018-07-26 00:23:58,035 INFO 4216 [egg:core] dump config after ready, 8ms
+2018-07-26 00:24:41,751 INFO 10200 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:24:41,791 INFO 10200 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:24:41,791 INFO 10200 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:24:42,473 INFO 10200 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:24:42,476 INFO 10200 [egg-security] use methodnoallow middleware
+2018-07-26 00:24:42,477 INFO 10200 [egg-security] use noopen middleware
+2018-07-26 00:24:42,478 INFO 10200 [egg-security] use nosniff middleware
+2018-07-26 00:24:42,478 INFO 10200 [egg-security] use xssProtection middleware
+2018-07-26 00:24:42,479 INFO 10200 [egg-security] use xframe middleware
+2018-07-26 00:24:42,479 INFO 10200 [egg-security] use dta middleware
+2018-07-26 00:24:42,479 INFO 10200 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:24:42,495 INFO 10200 [egg:core] dump config after load, 8ms
+2018-07-26 00:24:42,498 INFO 10200 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:24:42,521 INFO 10200 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:24:42,523 INFO 10200 [egg-watcher:app] watcher start success
+2018-07-26 00:24:42,533 INFO 10200 [egg:core] dump config after ready, 9ms
+2018-07-26 00:25:20,630 INFO 17700 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-26 00:25:20,675 INFO 17700 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-26 00:25:20,675 INFO 17700 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-26 00:25:21,398 INFO 17700 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-26 00:25:21,401 INFO 17700 [egg-security] use methodnoallow middleware
+2018-07-26 00:25:21,402 INFO 17700 [egg-security] use noopen middleware
+2018-07-26 00:25:21,403 INFO 17700 [egg-security] use nosniff middleware
+2018-07-26 00:25:21,403 INFO 17700 [egg-security] use xssProtection middleware
+2018-07-26 00:25:21,404 INFO 17700 [egg-security] use xframe middleware
+2018-07-26 00:25:21,404 INFO 17700 [egg-security] use dta middleware
+2018-07-26 00:25:21,404 INFO 17700 [egg-security] compose 6 middlewares into one security middleware
+2018-07-26 00:25:21,423 INFO 17700 [egg:core] dump config after load, 9ms
+2018-07-26 00:25:21,426 INFO 17700 [egg-mongo] Connecting MongoDB...
+2018-07-26 00:25:21,452 INFO 17700 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-26 00:25:21,454 INFO 17700 [egg-watcher:app] watcher start success
+2018-07-26 00:25:21,464 INFO 17700 [egg:core] dump config after ready, 8ms
+2018-07-27 10:58:55,278 INFO 15612 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-27 10:58:55,323 INFO 15612 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-27 10:58:55,323 INFO 15612 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-27 10:58:56,141 INFO 15612 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-27 10:58:56,143 INFO 15612 [egg-security] use methodnoallow middleware
+2018-07-27 10:58:56,144 INFO 15612 [egg-security] use noopen middleware
+2018-07-27 10:58:56,146 INFO 15612 [egg-security] use nosniff middleware
+2018-07-27 10:58:56,148 INFO 15612 [egg-security] use xssProtection middleware
+2018-07-27 10:58:56,149 INFO 15612 [egg-security] use xframe middleware
+2018-07-27 10:58:56,150 INFO 15612 [egg-security] use dta middleware
+2018-07-27 10:58:56,150 INFO 15612 [egg-security] compose 6 middlewares into one security middleware
+2018-07-27 10:58:56,170 INFO 15612 [egg:core] dump config after load, 12ms
+2018-07-27 10:58:56,176 INFO 15612 [egg-mongo] Connecting MongoDB...
+2018-07-27 10:58:56,213 INFO 15612 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-27 10:58:56,216 INFO 15612 [egg-watcher:app] watcher start success
+2018-07-27 10:58:56,227 INFO 15612 [egg:core] dump config after ready, 9ms
+2018-07-27 13:55:49,384 INFO 20056 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-27 13:55:49,431 INFO 20056 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-27 13:55:49,431 INFO 20056 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-27 13:55:50,238 INFO 20056 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-27 13:55:50,242 INFO 20056 [egg-security] use methodnoallow middleware
+2018-07-27 13:55:50,243 INFO 20056 [egg-security] use noopen middleware
+2018-07-27 13:55:50,244 INFO 20056 [egg-security] use nosniff middleware
+2018-07-27 13:55:50,245 INFO 20056 [egg-security] use xssProtection middleware
+2018-07-27 13:55:50,245 INFO 20056 [egg-security] use xframe middleware
+2018-07-27 13:55:50,247 INFO 20056 [egg-security] use dta middleware
+2018-07-27 13:55:50,247 INFO 20056 [egg-security] compose 6 middlewares into one security middleware
+2018-07-27 13:55:50,268 INFO 20056 [egg:core] dump config after load, 8ms
+2018-07-27 13:55:50,273 INFO 20056 [egg-mongo] Connecting MongoDB...
+2018-07-27 13:55:50,305 INFO 20056 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-27 13:55:50,308 INFO 20056 [egg-watcher:app] watcher start success
+2018-07-27 13:55:50,328 INFO 20056 [egg:core] dump config after ready, 16ms
+2018-07-27 13:56:26,946 INFO 16152 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-27 13:56:26,988 INFO 16152 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-27 13:56:26,988 INFO 16152 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-27 13:56:27,721 INFO 16152 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-27 13:56:27,724 INFO 16152 [egg-security] use methodnoallow middleware
+2018-07-27 13:56:27,724 INFO 16152 [egg-security] use noopen middleware
+2018-07-27 13:56:27,727 INFO 16152 [egg-security] use nosniff middleware
+2018-07-27 13:56:27,728 INFO 16152 [egg-security] use xssProtection middleware
+2018-07-27 13:56:27,729 INFO 16152 [egg-security] use xframe middleware
+2018-07-27 13:56:27,729 INFO 16152 [egg-security] use dta middleware
+2018-07-27 13:56:27,729 INFO 16152 [egg-security] compose 6 middlewares into one security middleware
+2018-07-27 13:56:27,753 INFO 16152 [egg:core] dump config after load, 11ms
+2018-07-27 13:56:27,757 INFO 16152 [egg-mongo] Connecting MongoDB...
+2018-07-27 13:56:27,786 INFO 16152 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-27 13:56:27,789 INFO 16152 [egg-watcher:app] watcher start success
+2018-07-27 13:56:27,804 INFO 16152 [egg:core] dump config after ready, 13ms
+2018-07-27 13:57:22,274 INFO 16824 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-27 13:57:22,316 INFO 16824 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-27 13:57:22,316 INFO 16824 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-27 13:57:23,075 INFO 16824 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-27 13:57:23,078 INFO 16824 [egg-security] use methodnoallow middleware
+2018-07-27 13:57:23,078 INFO 16824 [egg-security] use noopen middleware
+2018-07-27 13:57:23,079 INFO 16824 [egg-security] use nosniff middleware
+2018-07-27 13:57:23,079 INFO 16824 [egg-security] use xssProtection middleware
+2018-07-27 13:57:23,080 INFO 16824 [egg-security] use xframe middleware
+2018-07-27 13:57:23,080 INFO 16824 [egg-security] use dta middleware
+2018-07-27 13:57:23,080 INFO 16824 [egg-security] compose 6 middlewares into one security middleware
+2018-07-27 13:57:23,103 INFO 16824 [egg:core] dump config after load, 11ms
+2018-07-27 13:57:23,109 INFO 16824 [egg-mongo] Connecting MongoDB...
+2018-07-27 13:57:23,140 INFO 16824 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-27 13:57:23,142 INFO 16824 [egg-watcher:app] watcher start success
+2018-07-27 13:57:23,156 INFO 16824 [egg:core] dump config after ready, 12ms
+2018-07-27 13:59:14,690 INFO 15888 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-27 13:59:14,744 INFO 15888 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-27 13:59:14,744 INFO 15888 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-27 13:59:15,866 INFO 15888 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-27 13:59:15,869 INFO 15888 [egg-security] use methodnoallow middleware
+2018-07-27 13:59:15,869 INFO 15888 [egg-security] use noopen middleware
+2018-07-27 13:59:15,870 INFO 15888 [egg-security] use nosniff middleware
+2018-07-27 13:59:15,871 INFO 15888 [egg-security] use xssProtection middleware
+2018-07-27 13:59:15,871 INFO 15888 [egg-security] use xframe middleware
+2018-07-27 13:59:15,872 INFO 15888 [egg-security] use dta middleware
+2018-07-27 13:59:15,872 INFO 15888 [egg-security] compose 6 middlewares into one security middleware
+2018-07-27 13:59:15,892 INFO 15888 [egg:core] dump config after load, 10ms
+2018-07-27 13:59:15,895 INFO 15888 [egg-mongo] Connecting MongoDB...
+2018-07-27 13:59:15,928 INFO 15888 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-27 13:59:15,931 INFO 15888 [egg-watcher:app] watcher start success
+2018-07-27 13:59:15,943 INFO 15888 [egg:core] dump config after ready, 11ms
+2018-07-27 13:59:40,359 INFO 19224 [egg:logger] init all loggers with options: {"dir":"C:\\VS Code\\Egg\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-27 13:59:40,407 INFO 19224 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-07-27 13:59:40,407 INFO 19224 [egg-schedule]: register schedule C:\VS Code\Egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-07-27 13:59:41,134 INFO 19224 [egg-static] starting static serve /public/ -> C:\VS Code\Egg\egg-example\app\public
+2018-07-27 13:59:41,136 INFO 19224 [egg-security] use methodnoallow middleware
+2018-07-27 13:59:41,137 INFO 19224 [egg-security] use noopen middleware
+2018-07-27 13:59:41,138 INFO 19224 [egg-security] use nosniff middleware
+2018-07-27 13:59:41,139 INFO 19224 [egg-security] use xssProtection middleware
+2018-07-27 13:59:41,139 INFO 19224 [egg-security] use xframe middleware
+2018-07-27 13:59:41,140 INFO 19224 [egg-security] use dta middleware
+2018-07-27 13:59:41,140 INFO 19224 [egg-security] compose 6 middlewares into one security middleware
+2018-07-27 13:59:41,158 INFO 19224 [egg:core] dump config after load, 9ms
+2018-07-27 13:59:41,161 INFO 19224 [egg-mongo] Connecting MongoDB...
+2018-07-27 13:59:41,194 INFO 19224 [egg-mongo] Connect success on mongodb://127.0.0.1:27017/lululus?useNewUrlParser=true.
+2018-07-27 13:59:41,196 INFO 19224 [egg-watcher:app] watcher start success
+2018-07-27 13:59:41,209 INFO 19224 [egg:core] dump config after ready, 11ms

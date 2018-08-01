@@ -1,0 +1,32 @@
+2018-07-21 11:46:28,602 WARN 16208 [-/127.0.0.1/-/25ms POST /admin/user] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-07-21 11:46:28,605 WARN 16208 [-/127.0.0.1/-/28ms POST /admin/user] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (C:\VS Code\Egg\egg-example\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (C:\VS Code\Egg\egg-example\node_modules\egg-security\app\extend\context.js:140:17)
+    at csrf (C:\VS Code\Egg\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (C:\VS Code\Egg\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\VS Code\Egg\egg-example\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 16208
+hostname: WIN10-701130010
+
+2018-07-21 15:29:50,802 WARN 16208 [-/127.0.0.1/-/11ms POST /admin/user] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-07-21 15:29:50,806 WARN 16208 [-/127.0.0.1/-/16ms POST /admin/user] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\VS Code\Egg\egg-example\node_modules\koa\lib\context.js:96:11)
+    at Object.assertCsrf (C:\VS Code\Egg\egg-example\node_modules\egg-security\app\extend\context.js:149:17)
+    at csrf (C:\VS Code\Egg\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (C:\VS Code\Egg\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\VS Code\Egg\egg-example\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\VS Code\Egg\egg-example\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 16208
+hostname: WIN10-701130010
+

@@ -1,0 +1,19 @@
+{
+    "name": "egg-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "egg-bin dev",
+        "debug": "egg-bin debug"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "egg": "^2.9.1",
+        "egg-mongo-native": "^3.2.0"
+    },
+    "devDependencies": {
+        "egg-bin": "^4.7.1"
+    }
+}
